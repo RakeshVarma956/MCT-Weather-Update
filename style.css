@@ -11,6 +11,7 @@ body {
     background-image: url(./Climate_Change_2880x1620_Lede\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: 100%;
 }
 
 .maincontainer {
