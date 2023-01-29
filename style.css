@@ -7,7 +7,8 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #5080fe;
+    /* background-color: #5080fe; */
+    background-image: url(./Climate_Change_2880x1620_Lede\ \(1\).jpg);
 }
 
 .maincontainer {
@@ -20,17 +21,19 @@ body {
 }
 
 .heading {
-    width: 50%;
+    width: 40%;
     height: 8%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: rgb(203, 221, 202);
+    box-shadow: 2px 2px 10px rgb(15, 193, 140);
 }
 
 .heading h1 {
     font-weight: 100;
     color: #1f4f76;
+    text-shadow: 2px 2px 15px;
 }
 
 .search {
@@ -40,7 +43,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: white;
+    background-color: rgb(203, 221, 202);
 }
 
 input {
@@ -90,6 +93,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(203, 221, 202, 0.5);
 }
 
 .details .detailsLeft {
@@ -274,5 +278,44 @@ button {
     .detailsLeft {
         padding-left: 10px;
         align-items: center;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .maincontainer .heading {
+        width: 90%;
+        text-align: center;
+    }
+
+    .heading h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .maincontainer .search {
+        width: 50%;
+        height: 15%;
+    }
+
+    input {
+        height: 20px;
+        font-size: 15px;
+    }
+
+    button {
+        width: 50%;
+        height: 20px;
+    }
+
+    .result {
+        width: 90%;
+        height: 50%;
+    }
+
+    .detailsLeft {
+        padding-left: 10px;
+        align-items: center;
+        margin-top: -20px;
     }
 }
