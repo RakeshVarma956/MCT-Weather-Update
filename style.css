@@ -9,6 +9,8 @@ body {
     height: 100vh;
     /* background-color: #5080fe; */
     background-image: url(./Climate_Change_2880x1620_Lede\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .maincontainer {
